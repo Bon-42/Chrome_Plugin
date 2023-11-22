@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Focus And Create",
+  "version": "1.0",
+  "description": "Allows access only to specific websites.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "SaruMan.png"
+  }  
+}
+
